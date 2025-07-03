@@ -7,7 +7,7 @@ import(
 
 func Specified_format(cld *cloudinary.Cloudinary) string {
     // Instantiate an object that stores information for asset with public ID "cloud_castle" in folder "docs/sdk/go"
-    img_fam, err := cld.Image("docs/sdk/go/cloud_castle")
+    img_fam, err := cld.Image("cld-sample")
     if err != nil {
         fmt.Println("error")
     }

@@ -7,7 +7,7 @@ import(
 
 func Cartoonify(cld *cloudinary.Cloudinary) string {
    // Instantiate an object that stores information for asset with public ID "actor"
-    img_actor, err := cld.Image("docs/sdk/go/actor")
+    img_actor, err := cld.Image("cld-sample")
     if err != nil {
       fmt.Println("error")
     }

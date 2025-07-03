@@ -7,7 +7,7 @@ import(
 
 func Resize(cld *cloudinary.Cloudinary) string {
 	  // Instantiate an object that stores information for asset with public ID "family_video" in folder "docs/sdk/go"
-	  my_image, err := cld.Image("docs/sdk/go/apple")
+	  my_image, err := cld.Image("cld-sample")
 	  if err != nil {
 		  fmt.Println("error")
 	  }

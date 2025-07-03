@@ -7,7 +7,7 @@ import(
 
 func Resize_crop(cld *cloudinary.Cloudinary) string {
     // Instantiate an object that stores information for asset with public ID "black_coat_portrait"
-    img_fam, err := cld.Image("docs/sdk/go/family_video")
+    img_fam, err := cld.Image("cld-sample")
     if err != nil {
         fmt.Println("error")
     }
